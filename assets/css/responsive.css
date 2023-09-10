@@ -1,0 +1,1221 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+*/
+/* X-Large devices (large desktops, less than 1600px) */
+@media(max-width:1600.98px) {}
+
+/* X-Large devices (large desktops, less than 1500px) */
+@media (max-width: 1440.98px) {
+
+    /* for mobile menu responsive section responsive css start */
+    .header .menu-link {
+        font-size: 18px;
+    }
+
+    .header-phone-number-section a {
+        font-size: 14px;
+    }
+
+    .header-get-call-section a {
+        font-size: 14px;
+    }
+
+    .header-phone-number-section {
+        margin: 0px 20px;
+    }
+
+    /* for mobile menu responsive section responsive css end */
+    .main-banner-text h1 {
+        font-size: 55px;
+    }
+    .main-banner-text p {
+        font-size: 26px;
+    }
+    .main-banner-image img {
+        height: 685px;
+    }
+    .solid-btn {
+        font-size: 20px;
+    }
+    .home-page-about-us-section-inner-image img {
+        height: 536px;
+    }
+    .home-page-about-us-section {
+        margin: 60px 0px;
+    }
+    .home-page-about-us-inner-text-section h6 {
+        font-size: 19px;
+    }
+    .home-page-about-us-inner-text-section h5 {
+        font-size: 50px;
+        margin-bottom: 14px;
+    }
+    .home-page-about-us-inner-text-section p {
+        font-size: 18px;
+        line-height: 195%;
+    }
+    .home-page-about-us-btn a {
+        font-size: 16px;
+    }
+    .buy-and-appraise-section-header-text h4 {
+        font-size: 25px;
+        margin-bottom: 24px;
+    }
+    .buy-and-appraise-section-list-section li {
+        font-size: 20px;
+    }
+    .view-our-service-section {
+        margin: 60px 0px;
+        padding: 200px 0px;
+    }
+    .view-our-service-section-inner-text h4 {
+        font-size: 54px;
+        margin-bottom: 26px;
+    }
+    .view-our-service-section-inner-text p {
+        font-size: 18px;
+    }
+    .view-our-service-section-btn a {
+        font-size: 16px;
+    }
+    .section-center-text h4 {
+        font-size: 50px;
+    }
+    .testimonial-section {
+        margin: 60px 0px;
+    }
+    .testimonial-card-text p {
+        font-size: 18px;
+        line-height: 196%;
+    }
+    .client-name h5 {
+        font-size: 22px;
+    }
+    .rating-star i {
+        font-size: 19px;
+    }
+    .testimonial-slider .owl-next {
+        right: -58px;
+    }
+    .testimonial-slider .owl-prev {
+        left: -39px;
+    }
+    .featured-items-section {
+        margin: 60px 0px 0px 0px;
+        padding: 100px 0px;
+    }
+    .featured-items-card-text h5 {
+        font-size: 23px;
+    }
+    .featured-items-card-text p {
+        font-size: 19px;
+    }
+    .featured-items-card-slider .owl-next {
+        right: -58px;
+    }
+    .featured-items-card-slider .owl-prev {
+        left: -39px;
+    }
+    .help-section-text h4 {
+        font-size: 40px;
+    }
+    .help-section-call-now-btn a {
+        padding: 23px 0px;
+        font-size: 23px;
+    }
+    .help-section {
+        padding: 40px 0px;
+    }
+    .footer {
+        padding: 60px 0px 0px 0px;
+    }
+    .footer-link ul li a {
+        font-size: 18px;
+    }
+    .footer-logo img {
+        width: 100%;
+        height: 105px;
+        object-fit: contain;
+    }
+    .footer-social-media-link a {
+        font-size: 40px;
+    }
+    .footer-contact-section-header-text h5 {
+        font-size: 19px;
+    }
+    .footer-ph-num-section .footer-contact-text p {
+        font-size: 17px;
+    }
+    .footer-contact-text p {
+        font-size: 14px;
+    }
+    .footer-contact-icon i {
+        font-size: 18px;
+    }
+    .footer-hours-time-text p {
+        font-size: 17px;
+    }
+    .copy-right-text p {
+        font-size: 15px;
+    }
+    .copy-right-text p {
+        font-size: 15px;
+    }
+    .copy-right-setion-mail-icon i {
+        font-size: 22px;
+    }
+    .copy-right-section {
+        padding: 40px 0px;
+    }
+    .refinery-inner-image-text .home-page-about-us-section-inner-image img {
+        height: 339px;
+    }
+    .refinery-service-icon-image-text h5 {
+        font-size: 22px;
+    }
+    .refinery-service-icon-image-text p {
+        font-size: 18px;
+    }
+    .refinery-service-icon-image {
+        width: 160px;
+        height: 160px;
+    }
+    .refinery-service-icon-image img {
+        width: 97px;
+        height: 97px;
+    }
+    .refinery-learn-more-text h5 {
+        font-size: 18px;
+    }
+    .all-section-banner .main-banner-image img {
+        height: 268px !important;
+    }
+    .contact-us-page-form {
+        margin: 60px 0px;
+    }
+    .contact-us-page-form-section-input-section input{
+        font-size: 16px;
+        border-radius: 15px;
+    }
+    .contact-us-page-form-section-input-section input::placeholder{
+        font-size: 16px;
+    }
+    .contact-us-page-form-section-input-section textarea{
+        font-size: 16px;
+        border-radius: 15px;
+    }
+    .contact-us-page-form-section-input-section textarea::placeholder{
+        font-size: 16px;
+    }
+    .contact-us-page-form .section-center-text p {
+        font-size: 18px;
+    }
+    .contact-us-page-form-section {
+        margin-top: 30px;
+    }
+    .store-address-section {
+        margin: 60px 0px;
+    }
+    .store-address-card-main-text h5 {
+        font-size: 25px;
+    }
+    .store-address-icon-text h6 {
+        font-size: 20px;
+    }
+    .store-address-icon i {
+        font-size: 25px;
+    }
+    .card-location-top-icon i {
+        font-size: 30px;
+    }
+    .card-location-top-icon {
+        width: 80px;
+        height: 80px;
+        
+    }
+    .store-address-card-section {
+        height: 394px;
+    }
+    .store-hours-section {
+        margin: 60px 0px;
+    }
+    .store-address-location-ph-number-email-section {
+        margin-top: 60px;
+    }
+    .store-timing-section {
+        margin-top: 60px;
+    }
+    .store-timing-section-text h5 {
+        font-size: 25px;
+    }
+    .what-to-expect-image-text-video-section {
+        margin: 60px 0px;
+    }
+    .what-to-expect-image-text-video-section .home-page-about-us-section-inner-image img {
+        width: 100%;
+        height: 570px;
+    }
+    .what-to-expect-image-right-side-list-section ul li {
+        font-size: 20px;
+    }
+    .what-to-expect-video-text h5 {
+        font-size: 25px;
+    }
+    .what-to-expect-video-text p {
+        font-size: 18px;
+    }
+    .what-to-expect-video-section-image img {
+        height: 396px;
+    }
+    .what-to-expect-video-text-section {
+        margin-bottom: 50px;
+    }
+    .services-page-inner-section .featured-items-card-image img {
+        height: 385px;
+    }
+    .featured-items-card {
+        padding: 27px;
+    }
+    .slider-pagination a {
+        font-size: 18px;
+    }
+    .btn button {
+        font-size: 18px;
+    }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+    /* for mobile menu responsive section responsive css start */
+    .header .menu-link {
+        padding: 0px 4px;
+    }
+
+    .header .menu-item {
+        margin: 0px 0px;
+    }
+
+    .header .menu-item {
+        display: block;
+    }
+
+    .menu-section {
+        display: block;
+    }
+
+    .header .menu-link {
+        display: block;
+        padding: 9px 15px;
+        font-size: 18px;
+    }
+
+    .header .menu-item {
+        margin: 0px 0px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .header-get-call-section {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .header-phone-number-section a {
+        display: none;
+    }
+
+    .responsive-phone-icon {
+        display: block;
+        margin-right: 15px;
+        position: relative;
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        background: #32CD32;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .responsive-phone-icon:hover {
+        color: #fff;
+    }
+
+    .responsive-phone-icon i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .burger-phone-icon-section {
+        display: flex;
+        align-items: center;
+    }
+
+    /* for mobile menu responsive section responsive css end */
+    .main-banner-image img {
+        height: 600px;
+    }
+    .main-banner-text h1 {
+        font-size: 40px;
+    }
+    .main-banner-text p {
+        font-size: 22px;
+    }
+    .solid-btn {
+        font-size: 16px;
+    }
+    .home-page-about-us-section-inner-image img {
+        height: 450px;
+    }
+    .home-page-about-us-inner-text-section h5 {
+        font-size: 40px;
+    }
+    .home-page-about-us-inner-text-section p {
+        font-size: 16px;
+        line-height: 190%;
+    }
+    .home-page-about-us-btn a {
+        font-size: 15px;
+        padding: 17px 28px;
+    }
+    .buy-and-appraise-section-header-text h4 {
+        font-size: 22px;
+    }
+    .buy-and-appraise-section-list-section li {
+        flex-basis: 47%;
+        font-size: 16px;
+    }
+    .buy-and-appraise-section-list-section li::before {
+        width: 10px;
+        height: 10px;
+        top: 38%;
+        left: 11%;
+    }
+    .home-page-about-us-section {
+        margin: 40px 0px;
+    }
+    .view-our-service-section {
+        margin: 40px 0px;
+        padding: 120px 0px;
+    }
+    .view-our-service-section-inner-text h4 {
+        font-size: 40px;
+        margin-bottom: 17px;
+    }
+    .view-our-service-section-inner-text p {
+        font-size: 16px;
+    }
+    .view-our-service-section-btn a {
+        font-size: 15px;
+        padding: 17px 26px;
+    }
+    .section-center-text h4 {
+        font-size: 40px;
+    }
+    .testimonial-section {
+        margin: 40px 0px;
+    }
+    .clients-slider-section {
+        margin-top: 40px;
+    }
+    .featured-items-section {
+        margin: 40px 0px 0px 0px;
+        padding: 60px 0px;
+    }
+    .featured-items-card-image img {
+        height: 190px;
+        border-radius: 10px;
+    }
+    .featured-items-card-text h5 {
+        font-size: 19px;
+    }
+    .featured-items-card-text p {
+        font-size: 15px;
+    }
+    .featured-items-card-text {
+        margin-left: 0px;
+    }
+    .featured-items-card-btn a {
+        padding: 15px 30px;
+        font-size: 14px;
+    }
+    .featured-items-card {
+        padding: 15px;
+    }
+    .featured-items-card-btn {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .help-section-text h4 {
+        font-size: 30px;
+    }
+    .help-section-call-now-btn a {
+        padding: 19px 0px;
+        font-size: 19px;
+    }
+    .footer-link ul li a {
+        font-size: 16px;
+    }
+    .footer-logo img {
+        height: 75px;
+    }
+    .footer-contact-section-header-text h5 {
+        font-size: 17px;
+    }
+    .footer-contact-information-header-text h6 {
+        font-size: 15px;
+    }
+    .footer-ph-num-section .footer-contact-text p {
+        font-size: 16px;
+    }
+    .footer-contact-text p {
+        font-size: 13px;
+    }
+    .footer-contact-icon i {
+        font-size: 16px;
+    }
+    .footer-hours-time-text p {
+        font-size: 15px;
+    }
+    .copy-right-text p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .copy-right-setion-mail-text h6 {
+        font-size: 16px;
+    }
+    .copy-right-setion-mail-icon i {
+        font-size: 19px;
+    }
+    .refinery-inner-image-text .home-page-about-us-section-inner-image img {
+        height: 293px;
+    }
+    .refinery-service-icon-image-text h5 {
+        font-size: 20px;
+    }
+    .refinery-service-icon-image-text p {
+        font-size: 16px;
+    }
+    .refinery-learn-more-text h5 {
+        font-size: 16px;
+    }
+    .refinery-learn-more-text {
+        margin-top: 18px;
+    }
+    .all-section-banner .main-banner-image img {
+        height: 225px !important;
+    }
+    .contact-us-page-form .section-center-text p {
+        font-size: 16px;
+    }
+    .contact-us-page-form-section-input-section input {
+        padding: 18px 25px;
+        border-radius: 10px;
+    }
+    .contact-us-page-form-submit-btn button {
+        padding: 20px 60px;
+        font-size: 20px;
+    }
+    .store-address-card-section {
+        padding: 64px 30px 30px 30px;
+    }
+    .store-address-card-main-text h5 {
+        font-size: 20px;
+    }
+    .store-address-icon-text h6 {
+        font-size: 16px;
+    }
+    .store-address-card-section {
+        height: 340px;
+    }
+    .card-location-top-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .card-location-top-icon i {
+        font-size: 22px;
+    }
+    .store-address-icon i {
+        font-size: 20px;
+    }
+    .contact-us-page-form {
+        margin: 40px 0px;
+    }
+    .store-address-section {
+        margin: 40px 0px;
+    }
+    .store-hours-section {
+        margin: 40px 0px;
+    }
+    .store-timing-section {
+        padding: 64px 30px 30px 30px;
+    }
+    .store-timing-section-text h5 {
+        font-size: 22px;
+    }
+    .what-to-expect-image-text-video-section {
+        margin: 40px 0px;
+    }
+    .what-to-expect-image-text-video-section .home-page-about-us-section-inner-image img {
+        height: 430px;
+    }
+    .what-to-expect-image-right-side-list-section ul li {
+        font-size: 16px;
+    }
+    .what-to-expect-image-right-side-list-section ul li::marker {
+        font-size: 21px;
+    }
+    .what-to-expect-video-text h5 {
+        font-size: 22px;
+    }
+    .what-to-expect-video-text p {
+        font-size: 16px;
+    }
+    .what-to-expect-video-section-image img {
+        height: 340px;
+    }
+    .what-to-expect-pop-up-video-section {
+        margin-top: 50px;
+    }
+    .services-page-inner-section .featured-items-card-image img {
+        height: 284px;
+    }
+    .store-icon-image img {
+        width: 24px;
+        height: 24px;
+    }
+    .for-sale-pagination-number-section ul li a {
+        font-size: 18px;
+    }
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .main-banner-text h1 {
+        font-size: 33px;
+    }
+    .main-banner-image img {
+        height: 460px;
+    }
+    .solid-btn {
+        font-size: 15px;
+    }
+    .main-banner-btn {
+        margin-top: 48px;
+    }
+    .main-banner-text p {
+        font-size: 18px;
+    }
+    .home-page-about-us-section-inner-image img {
+        height: 337px;
+    }
+    .home-page-about-us-inner-text-section h6 {
+        font-size: 17px;
+    }
+    .home-page-about-us-inner-text-section h5 {
+        font-size: 35px;
+    }
+    .home-page-about-us-inner-text-section p {
+        font-size: 15px;
+        line-height: 180%;
+    }
+    .home-page-about-us-btn a {
+        font-size: 15px;
+        padding: 15px 26px;
+    }
+    .buy-and-appraise-section-header-text h4 {
+        font-size: 18px;
+    }
+    .buy-and-appraise-section-list-section li {
+        border-radius: 10px;
+        padding: 24px 29px;
+        font-size: 15px;
+
+    }
+    .buy-and-appraise-section-list-section li::before {
+        width: 8px;
+        height: 8px;
+        top: 37%;
+        left: 5%;
+    }
+    .brand img {
+        width: 160px;
+    }
+    .view-our-service-section {
+        margin: 40px 0px;
+        padding: 90px 0px;
+    }
+    .view-our-service-section-inner-text h4 {
+        font-size: 34px;
+        margin-bottom: 16px;
+    }
+    .view-our-service-section-inner-text p {
+        font-size: 15px;
+    }
+    .section-center-text h4 {
+        font-size: 30px;
+    }
+    .testimonial-card-text p {
+        font-size: 15px;
+        line-height: 190%;
+    }
+    .testimonial-card-section {
+        padding: 43px 30px;
+    }
+    .testimonial-section {
+        margin: 40px 0px 73px 0px;
+    }
+    .client-name h5 {
+        font-size: 19px;
+    }
+    .rating-star i {
+        font-size: 15px;
+    }
+    .client-image img {
+        height: 70px;
+    }
+    .inverted-coma-icon img {
+        height: 53.594px;
+    }
+    .featured-items-card-text h5 {
+        font-size: 16px;
+    }
+    .featured-items-card-text p {
+        font-size: 14px;
+    }
+    .featured-items-section {
+        padding: 60px 0px 90px 0px;
+    }
+    .help-section-text h4 {
+        font-size: 22px;
+    }
+    .help-section-call-now-btn a {
+        padding: 17px 0px;
+        font-size: 18px;
+    }
+    .footer-link ul li a {
+        font-size: 15px;
+        margin: 0px 10px;
+    }
+    .footer-devider {
+        margin-top: 30px;
+    }
+    .footer-logo-social-media-icon-section{
+        text-align: center;
+    }
+    .footer-inner-information-section {
+        padding: 56px 0px;
+    }
+    .footer-logo-social-media-icon-section{
+        margin-bottom: 40px;
+    }
+    .contact-us-page-form .section-center-text p {
+        font-size: 14px;
+    }
+    .contact-us-page-form-submit-btn button {
+        padding: 16px 50px;
+        font-size: 16px;
+    }
+    .store-address-card-section {
+        height: auto;
+        margin-bottom: 22px;
+    }
+    .store-timing-section-text h5 {
+        font-size: 17px;
+    }
+    .what-to-expect-image-text-video-section .home-page-about-us-section-inner-image img {
+        height: 340px;
+    }
+    .what-to-expect-image-right-side-list-section ul li {
+        font-size: 15px;
+    }
+    .what-to-expect-video-text h5 {
+        font-size: 20px;
+    }
+    .what-to-expect-video-text p {
+        font-size: 15px;
+    }
+    .what-to-expect-video-section-image img {
+        height: 240px;
+    }
+    .what-to-expect-pop-up-video-section {
+        margin-top: 40px;
+    }
+    .what-to-expect-video-text-section {
+        margin-bottom: 35px;
+    }
+    .services-page-inner-section .featured-items-card-image img {
+        height: 199px;
+    }
+    .services-page-image-text-section {
+        margin-top: 16px;
+    }
+    .for-sale-pagination-number-section {
+        text-align: center;
+    }
+    .pagination-btn-section {
+        justify-content: center;
+        margin-top: 26px;
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .main-banner-text h1 {
+        font-size: 26px;
+    }
+    .main-banner-text p {
+        font-size: 16px;
+    }
+    .main-banner-image img {
+        height: 378px;
+    }
+    .home-page-about-us-section-inner-image img {
+        height: 419px;
+    }
+    .home-page-about-us-section-inner-image{
+        margin-bottom: 30px;
+    }
+    .home-page-about-us-inner-text-section h5 {
+        font-size: 30px;
+    }
+    .home-page-about-us-inner-text-section h6 {
+        font-size: 16px;
+    }
+    .buy-and-appraise-section-header-text h4 {
+        font-size: 17px;
+    }
+    .buy-and-appraise-section-list-section li {
+        flex-basis: 100%;
+        font-size: 15px;
+    }
+    .buy-and-appraise-section-list-section li::before {
+        display: none;
+    }
+    .view-our-service-section {
+        padding: 60px 0px;
+    }
+    .view-our-service-section-inner-text h4 {
+        font-size: 27px;
+        margin-bottom: 16px;
+    }
+    .view-our-service-section-inner-text p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .section-center-text h4 {
+        font-size: 25px;
+    }
+    .testimonial-card-text p {
+        font-size: 14px;
+        line-height: 185%;
+    }
+    .clients-slider-section {
+        margin-top: 27px;
+    }
+    .featured-items-card-image img {
+        height: 155px;
+        border-radius: 10px;
+    }
+    .featured-items-card-text h5 {
+        font-size: 16px;
+    }
+    .featured-items-card-btn a {
+        padding: 12px 19px;
+        font-size: 13px;
+    }
+    .featured-items-section {
+        padding: 40px 0px 90px 0px;
+    }
+    .help-section{
+        text-align: center;
+    }
+    .help-section-text{
+        margin-bottom: 30px;
+    }
+    .footer-link ul li {
+        padding-bottom: 23px;
+    }
+    .footer-devider {
+        margin-top: 8px;
+    }
+    .footer-contact-section{
+        margin-top: 25px;
+    }
+    .copy-right-text{
+        text-align: center;
+    }
+    .copy-right-setion-mail-text-icon a {
+        justify-content: center;
+    }
+    .copy-right-text p {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .copy-right-setion-mail-text h6 {
+        font-size: 14px;
+    }
+    .copy-right-section {
+        padding: 19px 0px;
+    }
+    .refinery-service-icon-image {
+        width: 140px;
+        height: 140px;
+    }
+    .refinery-service-icon-image{
+        margin-bottom: 22px;
+    }
+    .refinery-service-icon-image img {
+        width: 86px;
+        height: 86px;
+    }
+    .refinery-inner-image-text .section-center-text {
+        margin-bottom: 26px;
+    }
+    .refinery-inner-image-text .buy-and-appraise-section {
+        margin-top: 0px;
+    }
+    .all-section-banner .main-banner-image img {
+        height: 158px !important;
+    }
+    .store-address-card-section {
+        margin-bottom: 60px;
+    }
+    .store-hours-section {
+        margin: -54px 0px 40px 0px;
+    }
+    .store-address-card-main-text h5 {
+        font-size: 18px;
+    }
+    .store-timing-section {
+        padding: 54px 11px 22px 11px;
+    }
+    .store-timing-section-text h5 {
+        font-size: 15px;
+    }
+    .for-desktop-section{
+        display: none;
+    }
+    .for-responsive-section{
+        display: block;
+    }
+    .what-to-expect-image-text-video-section .section-center-text {
+        margin-bottom: 30px;
+    }
+    .what-to-expect-video-section{
+        margin-bottom: 22px;
+    }
+    .what-to-expect-video-btn img{
+        width: 100%;
+        height: 36px;
+    }
+    .what-to-expect-pop-up-video-section {
+        margin-top: 15px;
+    }
+    .what-to-expect-video-bottom-text {
+        margin-top: 0px;
+    }
+    .what-to-expect-video-text-section {
+        padding: 27px 17px;
+    }
+    .what-to-expect-video-section-image img {
+        height: 343px;
+    }
+    .services-page-image-text-section .featured-items-card{
+        margin-bottom: 22px;
+    }
+    .for-sale-product-image-text .featured-items-card {
+       margin-bottom: 22px;
+    }
+    .for-sale-pagination-number-section ul li a {
+        font-size: 16px;
+    }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .main-banner-text h1 {
+        font-size: 19px;
+        line-height: 16px;
+    }
+    .main-banner-text p {
+        font-size: 14px;
+    }
+    .solid-btn {
+        font-size: 14px;
+        padding: 11px 27px;
+    }
+    .main-banner-image img {
+        height: 310px;
+    }
+    .home-page-about-us-section-inner-image img {
+        height: 312px;
+    }
+    .home-page-about-us-inner-text-section p {
+        font-size: 14px;
+    }
+    .home-page-about-us-inner-text-section h5 {
+        font-size: 27px;
+    }
+    .home-page-about-us-btn a {
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+    .home-page-about-us-btn {
+        margin-top: 31px;
+    }
+    .buy-and-appraise-section-list-section li {
+        padding: 17px 16px;
+        font-size: 14px;
+    }
+    .home-page-about-us-section {
+        margin: 30px 0px;
+    }
+    .view-our-service-section-inner-text h4 {
+        font-size: 22px;
+    }
+    .view-our-service-section {
+        padding: 30px 0px;
+        margin: 30px 0px 40px 0px;
+    }
+    .view-our-service-section-btn {
+        margin-top: 38px;
+    }
+    .view-our-service-section-btn a {
+        font-size: 14px;
+        padding: 13px 17px;
+    }
+    .testimonial-slider .owl-dots {
+        bottom: -11%;
+    }
+    .inverted-coma-icon img {
+        height: 16.594px;
+    }
+    .section-center-text h4 {
+        font-size: 22px;
+    }
+    .testimonial-card-text p {
+        line-height: 175%;
+    }
+    .testimonial-section {
+        margin: 30px 0px 73px 0px;
+    }
+    .featured-items-card-image img {
+        height: 222px;
+    }
+    .featured-items-slider-section {
+        margin-top: 30px;
+    }
+    .help-section-text h4 {
+        font-size: 17px;
+    }
+    .help-section-call-now-btn a {
+        padding: 12px 0px;
+        font-size: 15px;
+    }
+    .help-section {
+        padding: 30px 0px;
+    }
+    .footer {
+        padding: 30px 0px 0px 0px;
+    }
+    .footer-logo img {
+        height: 55px;
+    }
+    .footer-inner-information-section {
+        padding: 30px 0px;
+    }
+    .footer-contact-section {
+        margin-top: 15px;
+    }
+    .brand img {
+        width: 120px;
+    }
+    .buy-and-appraise-section-list-section li {
+        margin-right: 0px;
+    }
+    .footer-contact-text p {
+        font-size: 11px;
+    }
+    .footer-contact-information-header-text h6 {
+        font-size: 12px;
+    }
+    .footer-ph-num-section .footer-contact-text p {
+        font-size: 13px;
+    }
+    .footer-contact-icon i {
+        font-size: 13px;
+    }
+    .footer-contact-information {
+        margin-top: 18px;
+    }
+    .footer-hours-time-text p {
+        font-size: 13px;
+    }
+    .footer-hour-information{
+        text-align: center;
+    }
+    .all-section-banner .main-banner-image img {
+        height: 130px !important;
+    }
+    .refinery-service-icon-image {
+        width: 100px;
+        height: 100px;
+    }
+    .refinery-service-icon-image img {
+        width: 56px;
+        height: 56px;
+    }
+    .refinery-service-icon-image-text h5 {
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+    .refinery-service-icon-image-text p {
+        font-size: 14px;
+    }
+    .refinery-learn-more-text h5 {
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .contact-us-page-form {
+        margin: 30px 0px;
+    }
+    .contact-us-page-form-section {
+        margin-top: 9px;
+    }
+    .contact-us-page-form-section-input-section {
+        margin-bottom: 15px;
+    }
+    .store-address-card-section {
+        padding: 49px 15px 15px 15px;
+    }
+    .card-location-top-icon {
+        width: 60px;
+        height: 60px;
+    }
+    .card-location-top-icon i {
+        font-size: 17px;
+    }
+    .store-address-card-main-text h5 {
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+    .store-address-icon-text h6 {
+        font-size: 14px;
+    }
+    .store-timing-section {
+        padding: 40px 11px 22px 11px;
+    }
+    .store-timing-section-text h5 {
+        margin-bottom: 8px;
+    }
+    .store-timing-section {
+        margin-top: 45px;
+    }
+    .store-hours-section {
+        margin: -66px 0px 40px 0px;
+    }
+    .store-address-section {
+        margin: 30px 0px;
+    }
+    .what-to-expect-image-text-video-section .home-page-about-us-section-inner-image img {
+        height: 264px;
+    }
+    .what-to-expect-image-right-side-list-section ul {
+        padding-left: 24px;
+    }
+    .what-to-expect-image-right-side-list-section ul li {
+        font-size: 14px;
+    }
+    .what-to-expect-video-section-image img {
+        height: 214px;
+    }
+    .what-to-expect-video-text h5 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    .what-to-expect-video-text p {
+        font-size: 14px;
+    }
+    .what-to-expect-video-text-section {
+        margin-bottom: 22px;
+    }
+    .what-to-expect-image-text-video-section {
+        margin: 30px 0px;
+    }
+    .for-sale-pagination-number-section ul li a {
+        font-size: 15px;
+    }
+    .for-sale-pagination-number-section ul li a {
+        padding: 0px 10px;
+        margin-left: 0px;
+    }
+    .slider-pagination a {
+        font-size: 16px;
+        margin: 0px 11px;
+    }
+    .btn button {
+        font-size: 16px;
+        margin: 0px 11px;
+    }
+    .pagination-btn-section {
+        margin-top: 6px;
+    }
+}
+@media (max-width: 499.98px) {
+    .for-sale-product-image-text .featured-items-card-image img {
+        height: 104px;
+    }
+    .for-sale-product-image-text .featured-items-card {
+        padding: 9px;
+    }
+    .for-sale-product-image-text .featured-items-card-btn a {
+        padding: 10px 13px;
+        font-size: 11px;
+    }
+    .for-sale-product-image-text .featured-items-card-text p {
+        font-size: 11px;
+    }
+    .for-sale-product-image-text .featured-items-card-text {
+        margin-top: 11px;
+        margin-left: 30px;
+    }
+    .for-sale-product-image-text .featured-items-card {
+        border-radius: 6px;
+    }
+    .for-sale-product-image-tex .featured-items-card-image img {
+        border-radius: 6px;
+    }
+    .for-sale-product-image-tex .featured-items-card-btn {
+        margin-top: 20px;
+        margin-bottom: 13px;
+    }
+    .for-sale-product-image-text {
+        margin-top: 4px;
+    }
+}
